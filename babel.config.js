@@ -8,7 +8,10 @@ module.exports = {
     ['import', {
       libraryName: 'antd',
       // style: 'css' 样式按需加载与 mini-css-extract-plugin 有冲突，css 放到 _app.js 中全部加载
-    }]
+    }],
+    // style in js
+    ['styled-components', { ssr: true }],
   ]
 }
-console.log('>> custom bable config loaded.')
+
+console.log('>>>> custom bable config loaded.')
