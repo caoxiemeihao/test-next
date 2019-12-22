@@ -11,3 +11,4 @@ module.exports = {
     }]
   ]
 }
+console.log('>> custom bable config loaded.')
