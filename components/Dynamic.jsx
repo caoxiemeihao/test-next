@@ -1,0 +1,1 @@
+export default () => <span>This is a dynamic component</span>
